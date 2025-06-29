@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "VotingSystem.API.Controllers.VoteController",
+    "Method": "PostVote",
+    "RelativePath": "api/Vote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vote",
+        "Type": "VotingSystem.API.Models.Vote",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VotingSystem.API.Controllers.VoteController",
+    "Method": "GetVotes",
+    "RelativePath": "api/Vote",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
