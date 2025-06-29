@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Leonid\\VotingSystem\\backend\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{18838120-B1AB-4A5F-B188-D538B3CB830A}|VotingSystem.API\\VotingSystem.API.csproj|c:\\users\\leonid\\votingsystem\\backend\\votingsystem.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{18838120-B1AB-4A5F-B188-D538B3CB830A}|VotingSystem.API\\VotingSystem.API.csproj|solutionrelative:votingsystem.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18838120-B1AB-4A5F-B188-D538B3CB830A}|VotingSystem.API\\VotingSystem.API.csproj|c:\\users\\leonid\\votingsystem\\backend\\votingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{18838120-B1AB-4A5F-B188-D538B3CB830A}|VotingSystem.API\\VotingSystem.API.csproj|solutionrelative:votingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18838120-B1AB-4A5F-B188-D538B3CB830A}|VotingSystem.API\\VotingSystem.API.csproj|c:\\users\\leonid\\votingsystem\\backend\\votingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18838120-B1AB-4A5F-B188-D538B3CB830A}|VotingSystem.API\\VotingSystem.API.csproj|solutionrelative:votingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Leonid\\VotingSystem\\backend\\VotingSystem.API\\Dockerfile",
-              "RelativeDocumentMoniker": "VotingSystem.API\\Dockerfile",
-              "ToolTip": "C:\\Users\\Leonid\\VotingSystem\\backend\\VotingSystem.API\\Dockerfile",
-              "RelativeToolTip": "VotingSystem.API\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-29T09:24:42.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Leonid\\VotingSystem\\backend\\VotingSystem.API\\appsettings.json",
-              "RelativeDocumentMoniker": "VotingSystem.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Leonid\\VotingSystem\\backend\\VotingSystem.API\\appsettings.json",
-              "RelativeToolTip": "VotingSystem.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-29T09:19:35.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Leonid\\VotingSystem\\backend\\VotingSystem.API\\Program.cs",
-              "RelativeDocumentMoniker": "VotingSystem.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Leonid\\VotingSystem\\backend\\VotingSystem.API\\Program.cs",
-              "RelativeToolTip": "VotingSystem.API\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T04:45:00.322Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

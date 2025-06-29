@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Leonid\\VotingSystem\\backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18838120-B1AB-4A5F-B188-D538B3CB830A}|VotingSystem.API\\VotingSystem.API.csproj|c:\\users\\leonid\\votingsystem\\backend\\votingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18838120-B1AB-4A5F-B188-D538B3CB830A}|VotingSystem.API\\VotingSystem.API.csproj|solutionrelative:votingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Leonid\\VotingSystem\\backend\\VotingSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "VotingSystem.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Leonid\\VotingSystem\\backend\\VotingSystem.API\\Program.cs",
+              "RelativeToolTip": "VotingSystem.API\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:01:28.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

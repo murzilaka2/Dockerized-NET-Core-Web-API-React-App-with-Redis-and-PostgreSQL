@@ -33,18 +33,74 @@ using (var scope = app.Services.CreateScope())
     var db = scope.ServiceProvider.GetRequiredService<ApplicationContext>();
     db.Database.Migrate();
 
-    // Добавим начальные опции голосования, если еще не созданы
-    if (!db.Votes.Any())
+    if (!db.Polls.Any())
     {
-        db.Votes.AddRange(new[]
+        var poll1 = new Poll
         {
-            new Vote { Option = "C#" },
-            new Vote { Option = "JavaScript" },
-            new Vote { Option = "Python" },
-            new Vote { Option = "TypeScript" },
-            new Vote { Option = "Go" },
-            new Vote { Option = "Rust" }
-        });
+            Title = "Favorite programming language 123",
+            Questions = new List<Question>
+        {
+            new Question
+            {
+                Text = "What language do you use most often?",
+                Options = new List<AnswerOption>
+                {
+                    new AnswerOption { Text = "C#" },
+                    new AnswerOption { Text = "JavaScript" },
+                    new AnswerOption { Text = "Python" }
+                }
+            },
+            new Question
+            {
+                Text = "What language do you see as promising?",
+                Options = new List<AnswerOption>
+                {
+                    new AnswerOption { Text = "Rust" },
+                    new AnswerOption { Text = "Go" },
+                    new AnswerOption { Text = "TypeScript" }
+                }
+            }
+        }
+        };
+        var poll2 = new Poll
+        {
+            Title = "Daily tech habits",
+            Questions = new List<Question>
+        {
+            new Question
+            {
+                Text = "How often do you check tech news?",
+                Options = new List<AnswerOption>
+                {
+                    new AnswerOption { Text = "Multiple times a day" },
+                    new AnswerOption { Text = "Once a day" },
+                    new AnswerOption { Text = "Rarely" }
+                }
+            },
+            new Question
+            {
+                Text = "Do you listen to tech podcasts?",
+                Options = new List<AnswerOption>
+                {
+                    new AnswerOption { Text = "Yes, regularly" },
+                    new AnswerOption { Text = "Sometimes" },
+                    new AnswerOption { Text = "Never" }
+                }
+            },
+            new Question
+            {
+                Text = "How do you usually learn new technologies?",
+                Options = new List<AnswerOption>
+                {
+                    new AnswerOption { Text = "YouTube" },
+                    new AnswerOption { Text = "Online courses" },
+                    new AnswerOption { Text = "Books and blogs" }
+                }
+            }
+        }
+        };
+
+        db.Polls.AddRange(poll1, poll2);
         db.SaveChanges();
     }
 }

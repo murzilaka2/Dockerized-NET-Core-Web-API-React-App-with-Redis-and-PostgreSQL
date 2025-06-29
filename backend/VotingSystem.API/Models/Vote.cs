@@ -3,7 +3,8 @@
     public class Vote
     {
         public int Id { get; set; }
-        public string Option { get; set; } 
-        public DateTime Timestamp { get; set; }
+        public int AnswerOptionId { get; set; }
+        public AnswerOption AnswerOption { get; set; }
+        public DateTime Timestamp { get; set; } 
     }
 }
