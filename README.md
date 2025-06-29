@@ -25,5 +25,5 @@ A full-stack voting application built with **React (Vite)** on the frontend and 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/voting-system.git
+git clone https://github.com/murzilaka2/Dockerized-NET-Core-Web-API-React-App-with-Redis-and-PostgreSQL/tree/main
 cd voting-system
