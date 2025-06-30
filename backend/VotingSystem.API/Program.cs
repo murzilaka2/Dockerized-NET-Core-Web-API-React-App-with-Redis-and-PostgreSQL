@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 using VotingSystem.API.Data;
 using VotingSystem.API.Models;
+using VotingSystem.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,8 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 // Redis
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
     ConnectionMultiplexer.Connect(builder.Configuration["Redis:Configuration"]));
+
+builder.Services.AddScoped<IRedisService, RedisService>();
 
 var app = builder.Build();
 
